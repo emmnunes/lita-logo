@@ -5,9 +5,9 @@ module Lita
         config.command_only = false
       end
 
-      route %r{(?:logo)\s+(\w+[.]\w+)}i, :datasheet
+      route %r{(?:logo)\s+(\w+[.]\w+)}i, :logo
 
-      def tomorrow(response)
+      def logo(response)
         query = response.matches[0][0]
         response.reply "https://logo.clearbit.com/" + query
       end
