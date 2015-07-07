@@ -5,7 +5,7 @@ module Lita
         config.command_only = false
       end
 
-      route %r{(?:logo)\s+(\w+[.]\w+)}i, :logo
+      route %r{(\w+[.]\w+)\s(?:logo)}i, :logo
 
       def logo(response)
         query = response.matches[0][0]
