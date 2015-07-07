@@ -1,6 +1,6 @@
 # lita-logo
 
-TODO: Add a description of the plugin.
+Fetches any website's logo, using Clearbit's free Logo API.
 
 ## Installation
 
@@ -12,8 +12,14 @@ gem "lita-logo"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+No configuration required.
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+To fetch a website's logo simple write its URL (no http and no www) followed by the word logo.
+
+```
+kollegorna.se logo
+google.com logo
+wikipedia.org logo
+```
