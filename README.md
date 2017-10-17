@@ -1,6 +1,6 @@
 # lita-logo
 
-Fetches any website's logo, using Clearbit's free Logo API.
+Fetches any website's logo, using Clearbit's free Logo API. By [Kollegorna](http://www.kollegorna.se/en)
 
 ## Installation
 
